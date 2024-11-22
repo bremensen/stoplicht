@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="h-4JWaxP.-VFP+ZlD,)E" x="205" y="0"></block><block type="device_button_event" id="%AWAJspE5tVec,sOjeb^" x="638" y="183"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_pause" id="CZEl~%7r+z=9cFrBjsIY"><value name="pause"><shadow type="timePicker" id="^n{OTkB)VS^UVZH!eIn/"><field name="ms">1000</field></shadow></value><next><block type="set_traffic_light_state" id="@(NJ6Mq^sXTvY`jJ6][9"><field name="lightState">Kitronik_STOPbit.LightStates.Go</field><next><block type="device_show_leds" id="9+)A}={`3*nWH1T;w9bY"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="kd^zKj9k:3/EPWpWD2+."><value name="pause"><shadow type="timePicker" id=")4#T-8Qc_wQF0ekv._2L"><field name="ms">3000</field></shadow></value><next><block type="set_traffic_light_state" id="4Vb|H/B8Tp4]4=/00d_a"><field name="lightState">Kitronik_STOPbit.LightStates.ReadyToStop</field><next><block type="device_show_leds" id="MSM+w3vzewq={0QYwo9`"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="MI[,(Vwm^I:OR=.pmHG0"><value name="pause"><shadow type="timePicker" id="YFRYqZkzc$BTCLu4}kxX"><field name="ms">1000</field></shadow></value><next><block type="set_traffic_light_state" id="8[_^:T5QY(y8oY7xWY;?"><field name="lightState">Kitronik_STOPbit.LightStates.Stop</field><next><block type="device_show_leds" id="QlwU-M){+APXx_)5#[2S"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="RarY0~|$i@[5Fcf%v5!+" x="129" y="320"><statement name="HANDLER"><block type="set_traffic_light_state" id="Gm^VbULXNo7Z{jr=/JUn"><field name="lightState">Kitronik_STOPbit.LightStates.Stop</field></block></statement></block><block type="set_traffic_light_state" id="Sy1SLJDqd8=|RTajp#q?" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="598" y="399"><field name="lightState">Kitronik_STOPbit.LightStates.Go</field></block></xml>
